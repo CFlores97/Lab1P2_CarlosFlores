@@ -62,7 +62,7 @@ public class Lab1P2_CarlosFlores {
                     double resSenx = senX(x, lim, 0, acumSenx);
                     double resCosx = cosX(x, lim, 0, acumCosx);
 
-                    if (x > 1.6) { //pi/2 es 1.57....
+                    if (x > 90) { 
                         resTanx = 0;
                         System.out.println("tangente: " + resTanx + " valor es mayor que pi...");
                     } else {
